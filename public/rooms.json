@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Habitación 1",
+    "description": "Room 1 description",
+    "book_code": "00037",
+    "book_pms": "00037",
+    "book_units": 3,
+    "plans":[
+        {
+            "id": 1,
+            "plan_name":"Airbnb",
+            "prices":{
+                "lower_price":90.00,
+                "upper_price":120.00,
+                "base_price":90.00,
+                "currency":"USD"
+            }
+        },
+        {
+            "id": 2,
+            "plan_name":"Booking",
+            "prices":{
+                "lower_price":90.00,
+                "upper_price":120.00,
+                "base_price":90.00,
+                "currency":"USD"
+            }
+        },
+        {
+            "id": 3,
+            "plan_name":"Rank",
+            "prices":{
+                "lower_price":90.00,
+                "upper_price":120.00,
+                "base_price":90.00,
+                "currency":"USD"
+            }
+        }
+    ],
+    "ammenities":[
+        {
+            "id": 1,
+            "ammenity_name":"Wifi",
+            "ammenity_description":"Wifi",
+            "ammenity_icon":"wifi",
+            "ammenity_status":true
+        },
+        {
+            "id": 2,
+            "ammenity_name":"TV",
+            "ammenity_description":"TV",
+            "ammenity_icon":"tv",
+            "ammenity_status":true
+        },
+        {
+            "id": 3,
+            "ammenity_name":"Cocina",
+            "ammenity_description":"Cocina",
+            "ammenity_icon":"kitchen",
+            "ammenity_status":true
+        },
+        {
+            "id": 4,
+            "ammenity_name":"Piscina",
+            "ammenity_description":"Piscina",
+            "ammenity_icon":"pool",
+            "ammenity_status":true
+        }
+    ]
+  }
+]

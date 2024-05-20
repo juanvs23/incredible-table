@@ -1,0 +1,14 @@
+{
+  "extends": [
+    "next/core-web-vitals",
+    "plugin:tailwindcss/recommended",
+    "prettier"
+  ],
+  "settings": {
+    "tailwindcss": {
+      "classAttribute": false,
+      "callees": ["twMerge", "createTheme"],
+      "classRegex": "^(class(Name)|theme)?$"
+    }
+  }
+}
